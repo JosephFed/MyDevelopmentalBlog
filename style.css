@@ -1,0 +1,14 @@
+h1{
+    color: red;font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-family: 'roboto', sans-serif;
+    font-size: large;
+}
+ol{
+    font-family: 'Playpen Sans', cursive;
+    font-size: large;
+}
+img{
+    border-radius: 50%;
+}
