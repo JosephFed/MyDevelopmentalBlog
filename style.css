@@ -16,10 +16,13 @@ img{
 #container{
     display: flex;
     justify-content: space-around;
+
 }
 
 .point{
     width: 350px;
+    background-color: rgba(0, 255, 255, 0.3);
+    padding: 5px;
 }
 
 form{
