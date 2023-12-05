@@ -21,6 +21,9 @@
             <li><a href="#Week03">Week 3</a></li>
             <li><a href="#Week04">Week 4</a></li>
             <li><a href="#Week05">Week 5</a></li>
+            <li><a href="#Week06">Week 6</a></li>
+            <li><a href="#Week07">Week 7</a></li>
+            <li><a href="#Week08">Week 8</a></li>
         </ul>
     </nav>
     <Header>
@@ -135,6 +138,110 @@
                 <img src="Images/Week05-Q5.png" alt="Quiz 5">
             </div>
         </images>
+    </section>
+    <section id="Week06">
+        <h1>Week 6</h1>
+        <p>For this week, I learn recap on what I learn from week 5 JavaScript basic</p>
+        <p>I also learned about literal and function object</p>
+        <ol>
+            <li>
+                Literal Object
+                <ul>
+                    <li>Has no constructors</li>
+                    <li>Cannot be inherited</li>
+                    <li>A colon separates the key/value pair</li>
+                </ul>
+            </li>
+            <li>
+                Function Object
+                <ul>
+                    <li>Has constructors</li>
+                    <li>Can be inherited</li>
+                    <li>The this keyword is used instead of the object name</li>
+                </ul>
+            </li>
+        </ol>
+    </section>
+    <section id="Week07">
+        <h1>Week 7</h1>
+        <p>For this week, I learn more about JavaScript such as Document Object Model(DOM),
+            Event Handling & Validation and Local Storage.
+        </p>
+        <ol>
+            <li>
+                DOM allows you to access element by using:
+                <ul>
+                    <li>document.getElementById(); to get an element using the id its using</li>
+                    <li>document.querySelector(); to get the first matching element</li>
+                    <li>document.getElementsByClassName to get all element that is using that class name</li>
+                    <li>document.querySelectorAll() to get all matching element</li>
+                </ul>
+                <br>
+                Using methods such as:
+                <ul>
+                    <li>&lt;element&gt;.className to get the class name of an element or change the class name</li>
+                    <li>&lt;element&gt;.classList to remove or add a class to an element</li>
+                    <li>&lt;element&gt;.textContent to set content in an element</li>
+                    <li>&lt;element&gt;.innerhtml to retrieve content or modification of new content in an element</li>
+                </ul>
+            </li>
+            <br><br>
+            <li>
+                Event Handling
+                <ul>
+                    <li>AddEventListener("click",function()) when an element is clicked and calls the function</li>
+                    <li>AddEventListener("mouseover",function()) when cursor hovers over an element and calls the function</li>
+                </ul>
+            </li>
+            <br><br>
+            <li>
+                Local Storage
+                <ul>
+                    <li>localStorage.setItem(key, value) Stores the value</li>
+                    <li>localStorage.getItem(key) to get the values using the key</li>
+                    OR
+                    <li>localStorage.key = value to store the value</li>
+                    <li>localStorage.key to get the value if there is any</li>
+                    <br>
+                    <li>localStorage.length to get the number of items stored</li>
+                    <li>localStorage.removeItem(key) to remove item in storage</li>
+                    <li>localStorage.clear() to clear all items in storage</li>
+                </ul>
+            </li>
+        </ol>
+    </section>
+    <section id="Week08">
+        <h1>Week 8</h1>
+        <p>For this week, I learn about data attributes and API.</p>
+        <ol>
+            <li>
+                Data Attributes such as:
+                <ul>
+                    <li>Id</li>
+                    <li>Class</li>
+                    <li>data-&lt;name&gt;</li>
+                </ul>
+                <br>
+                Getting and Setting attributes:
+                <ul>
+                    <li>.getAttribute('&lt;name&gt;'); to get the value of the attribute</li>
+                    <li>.setAttribute('&lt;name&gt;',&lt;setvalue&gt;); to set/change the attribute</li>
+                </ul>
+                <br>
+                contains()
+                <ul><li>.contains("&lt;name&gt;") to check if element has that specific class</li></ul>
+            </li>
+            <br><br>
+            <li>
+                API
+                <ul>
+                    <li>Using fetch(&lt;apiURL&gt;) to get the api needed</li>
+                    <li>.then(function(response) {<br>
+                        return response.json();}) to read the api and return the data in json</li>
+                    <li>.then(function(data) {...}) to use the returned data</li>
+                </ul>
+            </li>
+        </ol>
     </section>
     <a href="#top">Back to Top</a>
 </body>
